@@ -1,0 +1,298 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@+id/fragment_container"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent">
+
+
+  <ScrollView
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+    android:scrollbars="none">
+  <LinearLayout
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      android:paddingTop="60dp"
+    android:orientation="vertical">
+
+  <LinearLayout
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_margin="25dp"
+      android:background="@drawable/cource_card_view"
+      android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="The Technology Learning Platform"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:gravity="left"
+        android:layout_centerHorizontal="true"
+        android:padding="10dp"
+        android:layout_margin="5dp"
+        android:paddingBottom="10dp"
+        android:textColor="@color/white" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+      android:orientation="horizontal">
+
+      <TextView
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text="View all Courses >>"
+          android:textStyle="normal"
+          android:textSize="13sp"
+          android:paddingRight="5dp"
+          android:gravity="left|center"
+          android:layout_centerHorizontal="true"
+          android:layout_marginLeft="15dp"
+          android:layout_marginBottom="15dp"
+          android:textColor="@color/white" />
+
+    </LinearLayout>
+
+
+  </LinearLayout>
+
+<!-- POPULAR COURCE -->
+  <LinearLayout
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal">
+      <ImageView
+          android:layout_width="50dp"
+          android:layout_height="50dp"
+          android:padding="10dp"
+          android:src="@drawable/ic_populer"
+          android:layout_margin="10dp"/>
+
+          <LinearLayout
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:layout_weight="1"
+              android:gravity="center"
+              android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Popular Courses"
+                android:textStyle="bold"
+                android:textSize="15sp"
+                android:gravity="left"
+                android:layout_centerHorizontal="true"
+                android:padding="5dp"
+                android:textColor="@color/black" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="The most popular courses of em all!"
+                android:textStyle="normal"
+                android:textSize="12sp"
+                android:gravity="left"
+                android:layout_centerHorizontal="true"
+                android:paddingLeft="5dp"
+                android:paddingBottom="5dp"
+                android:textColor="@color/black" />
+          </LinearLayout>
+
+      <TextView
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text="View all >"
+          android:textStyle="normal"
+          android:textSize="12sp"
+          android:gravity="left"
+          android:padding="10dp"
+          android:textColor="@color/teal_700" />
+
+    </LinearLayout>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/popular_recycler_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+  </LinearLayout>
+
+
+<!-- LEARNING TRACKS -->
+  <LinearLayout
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal">
+      <ImageView
+          android:layout_width="50dp"
+          android:layout_height="50dp"
+          android:padding="10dp"
+          android:src="@drawable/ic_track"
+          android:layout_margin="10dp"/>
+
+      <LinearLayout
+          android:layout_width="match_parent"
+          android:layout_height="match_parent"
+          android:gravity="center"
+          android:layout_weight="1"
+          android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Learning Tracks"
+            android:textStyle="bold"
+            android:textSize="15sp"
+            android:gravity="left"
+            android:layout_centerHorizontal="true"
+            android:padding="5dp"
+            android:textColor="@color/black" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Tracks designed to shape your future!"
+            android:textStyle="normal"
+            android:textSize="12sp"
+            android:gravity="left"
+            android:layout_centerHorizontal="true"
+            android:paddingLeft="5dp"
+            android:paddingBottom="5dp"
+            android:textColor="@color/black" />
+      </LinearLayout>
+
+      <TextView
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text="View all >"
+          android:textStyle="normal"
+          android:textSize="12sp"
+          android:gravity="left"
+          android:padding="10dp"
+          android:textColor="@color/teal_700" />
+
+    </LinearLayout>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/learning_track_recycler"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+  </LinearLayout>
+
+
+    <!-- TRANDING NOW -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+      <LinearLayout
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:gravity="center"
+          android:orientation="horizontal">
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:padding="10dp"
+            android:src="@drawable/ic_trend"
+            android:layout_margin="10dp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+          <TextView
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:text="Trending Now"
+              android:textStyle="bold"
+              android:textSize="15sp"
+              android:gravity="left"
+              android:layout_centerHorizontal="true"
+              android:padding="5dp"
+              android:textColor="@color/black" />
+
+          <TextView
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:text="Industry trending tech courses foe you!"
+              android:textStyle="normal"
+              android:textSize="12sp"
+              android:gravity="left"
+              android:layout_centerHorizontal="true"
+              android:paddingLeft="5dp"
+              android:paddingBottom="5dp"
+              android:textColor="@color/black" />
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="View all >"
+            android:textStyle="normal"
+            android:textSize="12sp"
+            android:gravity="left"
+            android:padding="10dp"
+            android:textColor="@color/teal_700" />
+
+      </LinearLayout>
+
+      <androidx.recyclerview.widget.RecyclerView
+          android:id="@+id/trending_recycler"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+  </LinearLayout>
+
+  </ScrollView>
+
+  <RelativeLayout
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content">
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@drawable/bg_card_view"/>
+
+    <TextView
+        android:id="@+id/tvTrack"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="25dp"
+        android:background="@drawable/fg_card_view"
+        android:gravity="center"
+        android:paddingLeft="50dp"
+        android:paddingTop="10dp"
+        android:paddingRight="50dp"
+        android:paddingBottom="10dp"
+        android:text="What do you want to become ?"
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+  </RelativeLayout>
+
+</RelativeLayout>

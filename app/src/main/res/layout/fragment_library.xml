@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@+id/fragment_container"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+  <LinearLayout
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_centerInParent="true"
+      android:gravity="center"
+      android:orientation="vertical">
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/ic_baseline_local_library_24"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/menu_5"
+        android:textSize="20sp"
+        android:textColor="@color/black"
+        android:layout_centerInParent="true"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/my_library"
+        android:textSize="12sp"
+        android:padding="10dp"
+        android:gravity="center"
+        android:textColor="@color/black"
+        android:layout_centerInParent="true"/>
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="25dp"
+        android:layout_weight="1"
+        android:textColor="@color/white"
+        android:id="@+id/btn_browse_courses"
+        android:text="@string/explore_courses"/>
+
+  </LinearLayout>
+
+
+</RelativeLayout>

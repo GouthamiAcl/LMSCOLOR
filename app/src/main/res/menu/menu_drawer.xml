@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:title="Menu">
+        <menu>
+            <item
+                android:id="@+id/learing_track"
+                android:icon="@drawable/ic_baseline_assignment_24"
+                android:title="@string/drawer_learning" />
+
+            <item
+                android:id="@+id/logout"
+                android:icon="@drawable/ic_baseline_logout_24"
+                android:title="@string/drawer_logout" />
+
+
+        </menu>
+    </item>
+    <item android:title="@string/drawer_other">
+        <menu>
+            <item
+                android:id="@+id/settings"
+                android:icon="@drawable/ic_baseline_settings_24"
+                android:title="@string/drawer_settings" />
+            <item
+                android:id="@+id/feedback"
+                android:icon="@drawable/ic_baseline_feedback_24"
+                android:title="@string/drawer_help" />
+            <item
+                android:id="@+id/rateApp"
+                android:icon="@drawable/ic_baseline_star_24"
+                android:title="@string/drawer_rateapp" />
+            <item
+                android:id="@+id/shareApp"
+                android:icon="@drawable/ic_baseline_search_24"
+                android:title="@string/drawer_share" />
+            <item
+                android:id="@+id/about"
+                android:icon="@drawable/ic_baseline_contact_support_24"
+                android:title="@string/drawer_about" />
+            <item
+                android:id="@+id/contact"
+                android:icon="@drawable/ic_baseline_contacts_24"
+                android:title="@string/drawer_contact" />
+        </menu>
+    </item>
+</menu>
+

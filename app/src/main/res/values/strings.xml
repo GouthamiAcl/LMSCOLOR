@@ -1,0 +1,69 @@
+<resources>
+    <string name="app_name">LMS</string>
+    <string name="privacy">http://google.com</string>
+
+    <string name="app_overview_1st_item_text">This is the first message we\'ll display in the viewpager</string>
+
+    <string name="app_overview_2nd_item_text">This is the second message we\'ll display in the viewpager</string>
+
+    <string name="app_overview_3rd_item_text">This is the third message we\'ll display in the viewpager</string>
+
+    <string name="app_overview_4th_item_text">This is the fourth message we\'ll display in the viewpager</string>
+
+    <string name="my_cources">Your enrolled Cources will appear here. \n Login now to explore more!</string>
+    <string name="my_dashboard">Your dashboard consists of your course performance, your wishlisted coures, your applied jobs and many more.</string>
+    <string name="my_doubts">All your course related doubts will appear here. \n Login now to explore more!</string>
+    <string name="my_library">Your library will start showing once you enroll in any course</string>
+    <string name="login_now">Login Now ></string>
+
+    <string name="lbl_forgot_password">Forgot password?</string>
+    <string name="email">Email</string>
+    <string name="failed_load">Failed to load, tap to try again.</string>
+    <string name="forgot_password_msg">Enter your registered email id to get reset instructions.</string>
+    <string name="hint_email">Email</string>
+    <string name="hint_name">Fullname</string>
+    <string name="hint_new_email">New Email</string>
+    <string name="hint_password">Password</string>
+
+    <string name="btn_back">&lt;&lt; Back</string>
+    <string name="btn_change">Change</string>
+    <string name="btn_forgot_password">Forgot your password?</string>
+    <string name="btn_link_to_login">Already have an account? Sign in</string>
+    <string name="btn_link_to_register">Not a member yet? Register</string>
+    <string name="btn_login">LOGIN</string>
+    <string name="btn_remove">Remove</string>
+    <string name="btn_reset_password">Reset Password</string>
+    <string name="btn_send">Send</string>
+    <string name="btn_sign_out">Sign Out</string>
+
+    <string name="String">I Would like to share this with you. Here You Can Download This Application from PlayStore</string>
+    <string name="browse_courses">Browse Courses</string>
+    <string name="explore_courses">Explore Courses</string>
+
+    <string name="login">Login/Signup</string>
+
+    <string name="tab_1">Label 1</string>
+    <string name="tab_2">Label 2</string>
+    <string name="tab_3">Label 3</string>
+    <string name="tab_4">Label 4</string>
+    <string name="tab_5">Label 5</string>
+
+    <string name="menu_1">Explore</string>
+    <string name="menu_2">My Courses</string>
+    <string name="menu_3">Dashboard</string>
+    <string name="menu_4">Doubts</string>
+    <string name="menu_5">Library</string>
+
+    <string name="drawer_learning">Learning Track</string>
+    <string name="drawer_about">About</string>
+    <string name="drawer_logout">Logout</string>
+
+    <string name="drawer_other">Others</string>
+
+    <string name="drawer_settings">Settings</string>
+    <string name="drawer_help">Help &amp; Feedback</string>
+    <string name="drawer_contact">Contact Us</string>
+    <string name="drawer_rateapp">Rate</string>
+    <string name="drawer_share">Share</string>
+
+</resources>
